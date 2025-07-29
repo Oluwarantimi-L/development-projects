@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+  padding: 150px;
+  margin: 0 auto;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.frame {
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  width: 410px;
+  height: auto;
+  border: 1px solid black;
+  box-shadow: 3px 4px 0px 3px rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.card img {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  padding: 10px;
+  height: auto;
+  border-radius: 25px;
+}
+.card h4 {
+  text-align: center;
+  padding-left: 10px;
+  background-color: hsl(47, 88%, 63%);
+  width: 100%;
+  max-width: 90px;
+  padding: 8px;
+  margin: 20px 10px;
+  border-radius: 5px;
+}
+.card p,
+h2 {
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 10px;
+}
+.card h2 {
+  font-size: 1.6rem;
+  margin: 10px 0;
+}
+#text {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 42%);
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+.avatar img {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  margin: 12px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 15px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
